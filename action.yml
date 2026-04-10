@@ -12,6 +12,6 @@ inputs:
     required: false
     default: fr
 
-run:
+runs:
   using: node16
   main: index.js
