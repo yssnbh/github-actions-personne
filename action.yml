@@ -1,0 +1,17 @@
+name: Personnalize Action
+description: Une Action Personnele Pour Le Test
+author: Bouhroz
+
+inputs:
+  nom:
+    description: username
+    required: true
+
+  langue:
+    description: Language de salutation
+    required: false
+    default: fr
+
+run:
+  using: node16
+  main: index.js
